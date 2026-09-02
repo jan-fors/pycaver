@@ -12,7 +12,7 @@ from src.utils.constants import (
     DESIRED_RADIUS,
     MAX_DISTANCE,
 )
-
+from src.utils.setup import init
 
 def _extract_inputs(args):
     """ """
@@ -27,9 +27,11 @@ def _extract_inputs(args):
         args.starting_point_coordinates
     )
 
-
 def cli(args):
     """ """
+    # check setup
+    init()
+    
     # extract inputs
     (
         input,
@@ -66,9 +68,9 @@ def cli(args):
     )
 
 
-if __name__ == "__main__":
+def entry():
     parser = argparse.ArgumentParser()
-
+    
     parser.add_argument("input", type=Path, help="Path to a structure file (pdb).")
     parser.add_argument(
         "-o", "--output_dir", type=Path, help="Path to the output directory.", default="."
@@ -86,3 +88,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     cli(args)
+
+
+if __name__ == "__main__":
+    entry()

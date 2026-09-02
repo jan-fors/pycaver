@@ -1,6 +1,12 @@
 from pathlib import Path
 from src.utils.constants import BASE_CONFIG_PATH
 
+from importlib.resources import files
+
+def load_text_file():
+    path = files("utils").joinpath("base_config.txt")
+    return path.read_text()
+
 
 def build_config(
     output_dir: Path,
@@ -15,8 +21,7 @@ def build_config(
     Creates a custom config file inside the output dir and returns the path to this file
     """
     # read base config
-    with open(BASE_CONFIG_PATH, "r") as f:
-        lines = f.read()
+    lines = load_text_file()
 
     # append relevant lines
     lines += f"""
