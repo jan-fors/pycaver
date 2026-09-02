@@ -1,4 +1,4 @@
-from src.tunnel.TunnelPoint import TunnelPoint
+from pycaver.tunnel.TunnelPoint import TunnelPoint
 
 class CustomDecoder:
     # Custom decoder to convert JSON dicts back to TunnelPoint objects

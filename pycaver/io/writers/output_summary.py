@@ -1,8 +1,8 @@
-from src.tunnel.MetaTunnel import MetaTunnel
+from pycaver.tunnel.MetaTunnel import MetaTunnel
 from pathlib import Path
 import os
 import json
-from src.io.writers.CustomEncoder import CustomEncoder
+from pycaver.io.writers.CustomEncoder import CustomEncoder
 
 def write_outputs(output_dir : Path, meta_tunnel : MetaTunnel, tunnel_characteristics : dict, residue_data : dict):
     """"""

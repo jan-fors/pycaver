@@ -1,9 +1,9 @@
 import subprocess
 from pathlib import Path
-from src.utils.constants import (
+from pycaver.utils.constants import (
     HEAP_SIZE,
 )
-from src.utils.paths import get_caver_paths
+from pycaver.utils.paths import get_caver_paths
 
 def execute_caver(pdb_folder : Path, config : Path, output_folder : Path):
     """

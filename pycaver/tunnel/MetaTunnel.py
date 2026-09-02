@@ -1,11 +1,11 @@
 import networkx as nx
-from src.tunnel.TunnelPoint import TunnelPoint
-from src.tunnel.Tunnel import Tunnel
+from pycaver.tunnel.TunnelPoint import TunnelPoint
+from pycaver.tunnel.Tunnel import Tunnel
 from typing import List
 import json
-from src.io.parser.CustomDecoder import CustomDecoder
-from src.io.writers.CustomEncoder import CustomEncoder
-from src.tunnel.TunnelUtils import TunnelUtils
+from pycaver.io.parser.CustomDecoder import CustomDecoder
+from pycaver.io.writers.CustomEncoder import CustomEncoder
+from pycaver.tunnel.TunnelUtils import TunnelUtils
 import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 

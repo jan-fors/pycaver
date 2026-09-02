@@ -1,10 +1,10 @@
 from pathlib import Path
-from src.utils.constants import BASE_CONFIG_PATH
+from pycaver.utils.constants import BASE_CONFIG_PATH
 
 from importlib.resources import files
 
 def load_text_file():
-    path = files("utils").joinpath("base_config.txt")
+    path = files("pycaver.utils").joinpath("base_config.txt")
     return path.read_text()
 
 

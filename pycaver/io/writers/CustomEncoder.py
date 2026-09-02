@@ -1,5 +1,5 @@
 import json
-from src.tunnel.TunnelPoint import TunnelPoint
+from pycaver.tunnel.TunnelPoint import TunnelPoint
 
 class CustomEncoder(json.JSONEncoder):
     def default(self, obj):

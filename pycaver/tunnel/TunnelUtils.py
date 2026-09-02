@@ -1,6 +1,6 @@
-import src.tunnel.Tunnel as Tunnel
-import src.tunnel.TunnelPoint as TunnelPoint
-import src.tunnel.MetaTunnel as MetaTunnel
+import pycaver.tunnel.Tunnel as Tunnel
+import pycaver.tunnel.TunnelPoint as TunnelPoint
+import pycaver.tunnel.MetaTunnel as MetaTunnel
 import networkx as nx
 
 class TunnelUtils:

@@ -3,16 +3,16 @@
 import argparse
 from pathlib import Path
 import os
-from src.main import main
+from pycaver.main import main
 import shutil
-from src.utils.constants import (
+from pycaver.utils.constants import (
     SHELL_RADIUS,
     SHELL_DEPTH,
     PROBE_RADIUS,
     DESIRED_RADIUS,
     MAX_DISTANCE,
 )
-from src.utils.setup import init
+from pycaver.utils.setup import init
 
 def _extract_inputs(args):
     """ """

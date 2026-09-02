@@ -1,5 +1,5 @@
 import networkx as nx
-from src.tunnel.TunnelPoint import TunnelPoint
+from pycaver.tunnel.TunnelPoint import TunnelPoint
 from typing import List
 
 class Tunnel:

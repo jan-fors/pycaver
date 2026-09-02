@@ -26,8 +26,9 @@ dependencies = [
 [project.scripts]
 pycaver = "pycaver.cli:entry"
 
+
 [tool.setuptools.packages.find]
-where = ["src"]
+where = ["."]
 include = ["pycaver*"]
 
 [tool.setuptools.package-data]

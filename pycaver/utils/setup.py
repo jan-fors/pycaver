@@ -1,5 +1,5 @@
-from mypkg.paths import get_data_dir
-from mypkg.fetch import fetch_caver
+from pycaver.utils.paths import get_data_dir
+from pycaver.utils.fetch import fetch_caver
 
 def init(force: bool = False):
     data_dir = get_data_dir()

@@ -1,16 +1,16 @@
 from pathlib import Path
 from typing import List
-from src.caver.build_config import build_config
-from src.caver.caver_handler import execute_caver
-from src.io.parser.tunnel_profile_parser import parse_tunnel_profiles
-from src.io.parser.tunnel_characteristics_parser import (
+from pycaver.caver.build_config import build_config
+from pycaver.caver.caver_handler import execute_caver
+from pycaver.io.parser.tunnel_profile_parser import parse_tunnel_profiles
+from pycaver.io.parser.tunnel_characteristics_parser import (
     parse_tunnel_characteristics_summary,
 )
-from src.io.parser.tunnel_residue_parser import parse_tunnel_residue_summary
-from src.io.path.path_handler import get_result_paths
-from src.tunnel.Tunnel import build_tunnels
-from src.tunnel.MetaTunnel import MetaTunnel, build_metatunnel
-from src.io.writers.output_summary import write_outputs
+from pycaver.io.parser.tunnel_residue_parser import parse_tunnel_residue_summary
+from pycaver.io.path.path_handler import get_result_paths
+from pycaver.tunnel.Tunnel import build_tunnels
+from pycaver.tunnel.MetaTunnel import MetaTunnel, build_metatunnel
+from pycaver.io.writers.output_summary import write_outputs
 
 
 def main(
