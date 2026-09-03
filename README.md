@@ -41,16 +41,8 @@ pycaver input.pdb -o out/ --probe_radius 1.0 --starting_point_coordinates 1.0 2.
 | `--starting_point_coordinates <float> <float> <float> | Starting Point Coordinates | |
 
 ## Sources / References
-[^1]: ```bibtex
-@article{caver-3_0,
-  author  = "Eva Chovancová and Antonín Pavelka and Petr Beneš and Ondřej Strnad and Jan Brezovský and Barbora Kozlíková and Artur Gora and Vilém Šustr and Martin Klvaňa and Petr Medek and Lada Biedermannová and Jiří Sochor and Jiří Damborský",
-  title   = "CAVER 3.0: A Tool for the Analysis of Transport Pathways in Dynamic Protein Structures",
-  journal = "PLoS Computational Biology",
-  volume  = "8",
-  pages   = "e1002708",
-  year    = "2012"
-}
-```
+[^1]: Chovancová, E., Pavelka, A., Beneš, P., Strnad, O., Brezovský, J., Kozlíková, B., Gora, A., Šustr, V., Klvaňa, M., Medek, P., Biedermannová, L., Sochor, J., & Damborský, J. (2012). CAVER 3.0: A Tool for the Analysis of Transport Pathways in Dynamic Protein Structures. *PLoS Computational Biology*, 8, e1002708.
+
 ## Citation
 If you use this script in your research, please cite:
 t.b.p.
