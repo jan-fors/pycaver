@@ -1,12 +1,12 @@
 from pathlib import Path
 from platformdirs import user_data_dir
+import sys
 
 APP_NAME = "pycaver"
 
 def get_data_dir() -> Path:
-    d = Path(user_data_dir(APP_NAME))
+    d = Path(sys.prefix) / "share" / APP_NAME
     d.mkdir(parents=True, exist_ok=True)
-    print(d)
     return d
 
 def get_caver_paths() -> dict:
