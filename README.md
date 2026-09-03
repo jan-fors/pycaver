@@ -40,8 +40,6 @@ pycaver input.pdb -o out/ --probe_radius 1.0 --starting_point_coordinates 1.0 2.
 | `--max_distance <float>` | Max Distance | `3.0` |
 | `--starting_point_coordinates <float> <float> <float> | Starting Point Coordinates | |
 
-## Sources / References
-[^1]: Chovancová, E., Pavelka, A., Beneš, P., Strnad, O., Brezovský, J., Kozlíková, B., Gora, A., Šustr, V., Klvaňa, M., Medek, P., Biedermannová, L., Sochor, J., & Damborský, J. (2012). CAVER 3.0: A Tool for the Analysis of Transport Pathways in Dynamic Protein Structures. *PLoS Computational Biology*, 8, e1002708.
 
 ## Citation
 If you use this script in your research, please cite:
@@ -49,3 +47,6 @@ t.b.p.
 
 ## License
 [MIT](LICENSE)
+
+## Sources / References
+[^1]: Chovancová, E., Pavelka, A., Beneš, P., Strnad, O., Brezovský, J., Kozlíková, B., Gora, A., Šustr, V., Klvaňa, M., Medek, P., Biedermannová, L., Sochor, J., & Damborský, J. (2012). CAVER 3.0: A Tool for the Analysis of Transport Pathways in Dynamic Protein Structures. *PLoS Computational Biology*, 8, e1002708.
