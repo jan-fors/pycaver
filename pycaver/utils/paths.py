@@ -10,7 +10,7 @@ def get_data_dir() -> Path:
     return d
 
 def get_caver_paths() -> dict:
-    caver_folder = get_data_dir() / "prog" / "caver_3.0" / "caver"
+    caver_folder = get_data_dir() / "prog" / "caver_3.0" / "caver_3.0" / "caver"
     return {
         "CAVER_FOLDER": caver_folder,
         "CAVER_LIB": caver_folder / "lib",
