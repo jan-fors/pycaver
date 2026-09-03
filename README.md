@@ -42,7 +42,7 @@ pycaver input.pdb -o out/ --probe_radius 1.0 --starting_point_coordinates 1.0 2.
 
 ## Sources / References
 [^1] @article{caver-3_0,
-  author  = "Eva Chovancov\'{a} and Anton\'{i}n Pavelka and Petr Bene\v{s} and Ond\v{r}ej Strnad and Jan Brezovsk\'{y} and Barbora Kozl\'{i}kov\'{a} and Artur Gora and Vil\'{e}m \v{S}ustr and Martin Klva\v{n}a and Petr Medek and Lada Biedermannov\'{a} and Ji\v{r}\'{i} Sochor and Ji\v{r}\'{i} Damborsk\'{y}",
+  author  = "Eva Chovancová and Antonín Pavelka and Petr Beneš and Ondřej Strnad and Jan Brezovský and Barbora Kozlíková and Artur Gora and Vilém Šustr and Martin Klvaňa and Petr Medek and Lada Biedermannová and Jiří Sochor and Jiří Damborský",
   title   = "CAVER 3.0: A Tool for the Analysis of Transport Pathways in Dynamic Protein Structures",
   journal = "PLoS Computational Biology",
   volume  = "8",
