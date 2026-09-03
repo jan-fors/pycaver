@@ -75,7 +75,6 @@ def entry():
     parser.add_argument(
         "-o", "--output_dir", type=Path, help="Path to the output directory.", default="."
     )
-
     parser.add_argument("--shell_radius", type=float, default=SHELL_RADIUS)
     parser.add_argument("--shell_depth", type=float, default=SHELL_DEPTH)
     parser.add_argument("--probe_radius", type=float, default=PROBE_RADIUS)
