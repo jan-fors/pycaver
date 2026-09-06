@@ -12,11 +12,11 @@ conda create -n pycaver python=3.11 -y
 conda activate pycaver
 
 # install pycaver
-pip install git+https://github.com/solarflip/pycaver
+pip install git+https://github.com/jan-fors/pycaver
 ```
 Or clone and install from source (useful for development):
 ```sh
-git clone https://github.com/solarflip/pycaver
+git clone https://github.com/jan-fors/pycaver
 cd pycaver
 pip install -e .
 ```
@@ -38,7 +38,7 @@ pycaver input.pdb -o out/ --probe_radius 1.0 --starting_point_coordinates 1.0 2.
 | `--probe_radius <float>` | Probe Radius | `0.9` |
 | `--desired_radius <float>` | Desired Radius | `5.0` |
 | `--max_distance <float>` | Max Distance | `3.0` |
-| `--starting_point_coordinates <float> <float> <float> | Starting Point Coordinates | |
+| `--starting_point_coordinates <float> <float> <float>` | Starting Point Coordinates | |
 
 
 ## Citation
